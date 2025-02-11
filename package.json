@@ -1,0 +1,28 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "AllTests": "testcafe chrome:headless tests/ --reporter html-testrail-3",
+    "loginTest": "testcafe chrome:headless tests/test_01_login --reporter html-testrail-3",
+    "ApiTest": "testcafe chrome:headless tests/test_04_apis.js --reporter html-testrail-3",
+    "Sql3Test": "testcafe chrome:headless tests/test_02_DBSQL3.js --reporter html-testrail-3",
+    "MysqlTest": "testcafe chrome:headless tests/test_03_DBmysql.js --reporter html-testrail-3",
+    "testcafe": "testcafe"
+  },
+  "author": "Maximo Nahuel Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "testcafe": "^3.7.1",
+    "testcafe-reporter-html-testrail-3": "^1.0.6"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.1.7",
+    "testcafe-reporter-detailed-html": "^1.0.7",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-spec": "^2.2.0"
+  }
+}

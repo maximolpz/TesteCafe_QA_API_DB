@@ -1,0 +1,13 @@
+{
+  "login": [
+    {
+      "baseURL": "https://www.saucedemo.com"
+    },
+    {
+      "Credendials": {
+        "user": "standard_user",
+        "pass": "secret_sauce"
+      }
+    }
+  ]
+}

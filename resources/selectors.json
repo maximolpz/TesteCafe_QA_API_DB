@@ -1,0 +1,24 @@
+{
+    "login": [
+        {
+            "id_input_user": "#user-name",
+            "id_input_pass": "#password",
+            "id_button_login":"#login-button"
+        }
+    ],
+    "pag_inventory": [
+        {
+            "xx": "xx",
+            "xxx": "xx"
+        }
+    ],
+    "data_2": [
+        {
+            "xx": 1,
+            "xxx": {
+                "name": "xx",
+                "url": "xxx"
+            }
+        }
+    ]
+}
